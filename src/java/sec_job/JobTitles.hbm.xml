@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Feb 7, 2014 3:34:17 PM by Hibernate Tools 3.6.0 -->
+<hibernate-mapping>
+    <class name="sec_job.JobTitles" table="job_titles" catalog="secure_job_local">
+        <id name="idJobTitles" type="java.lang.Short">
+            <column name="idJobTitles" />
+            <generator class="identity" />
+        </id>
+        <many-to-one name="sectors" class="sec_job.Sectors" fetch="select">
+            <column name="Sectors_idSectors" />
+        </many-to-one>
+        <property name="jobTitle" type="string">
+            <column name="jobTitle" length="45" />
+        </property>
+        <set name="personses" table="job_preferences" inverse="false" lazy="true" fetch="select">
+            <key>
+                <column name="JobTitles_idJobTitles" not-null="true" />
+            </key>
+            <many-to-many entity-name="sec_job.Persons">
+                <column name="person_idUser" not-null="true" />
+            </many-to-many>
+        </set>
+        <set name="experienceses" table="experiences" inverse="true" lazy="true" fetch="select">
+            <key>
+                <column name="JobTitles_idJobTitles" not-null="true" />
+            </key>
+            <one-to-many class="sec_job.Experiences" />
+        </set>
+    </class>
+</hibernate-mapping>

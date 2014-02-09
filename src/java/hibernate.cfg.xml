@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+  <session-factory>
+    <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+    <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+    <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/secure_job_local</property>
+    <property name="hibernate.connection.username">root</property>
+    <property name="hibernate.connection.password">securejob</property>
+    <mapping resource="sec_job/Sectors.hbm.xml"/>
+    <mapping resource="sec_job/Persons.hbm.xml"/>
+    <mapping resource="sec_job/EducationLevels.hbm.xml"/>
+    <mapping resource="sec_job/EducationalQualifications.hbm.xml"/>
+    <mapping resource="sec_job/ProfessionalQualifications.hbm.xml"/>
+    <mapping resource="sec_job/Referees.hbm.xml"/>
+    <mapping resource="sec_job/Experiences.hbm.xml"/>
+    <mapping resource="sec_job/JobTitles.hbm.xml"/>
+    <mapping resource="sec_job/EmploymentLevels.hbm.xml"/>
+    <mapping resource="sec_job/Skills.hbm.xml"/>
+  </session-factory>
+</hibernate-configuration>
