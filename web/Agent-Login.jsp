@@ -1,6 +1,7 @@
 <%-- 
-    Document   : Register_jobseeker
-    Created on : Mar 3, 2014, 11:18:05 AM
+    Document   : Agent-Login
+    Created on : Mar 11, 2014, 3:41:23 PM
+    Author     : Hitzyy
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
@@ -123,23 +124,53 @@ body {text-align:center;margin:0}
 
 <div id="g_image2" style="position:absolute; overflow:hidden; left:19px; top:32px; width:56px; height:52px; z-index:6"><img src="images/logo2.gif" alt="" title="" border=0 width=56 height=52></div>
 
-<div id="g_nav10d" style="position:absolute; left:17px; top:87px; z-index:7"><a onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('g_nav10','','images/nav495176620a.gif',1)" href="Homepage.jsp"><img name="g_nav10" onLoad="MM_preloadImages('images/nav495176620a.gif')" alt="" border=0 src="images/nav495176620i.gif"></a></div>
+<div id="g_nav10d" style="position:absolute; left:17px; top:87px; z-index:7"><a onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('g_nav10','','images/nav495176620a.gif',1)" href="HomePage.jsp"><img name="g_nav10" onLoad="MM_preloadImages('images/nav495176620a.gif')" alt="" border=0 src="images/nav495176620i.gif"></a></div>
 <div id="g_nav11d" style="position:absolute; left:149px; top:87px; z-index:7"><a onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('g_nav11','','images/nav495176621a.gif',1)" href="Jobseeker-Login.jsp"><img name="g_nav11" onLoad="MM_preloadImages('images/nav495176621a.gif')" alt="" border=0 src="images/nav495176621i.gif"></a></div>
 <div id="g_nav12d" style="position:absolute; left:281px; top:87px; z-index:7"><a onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('g_nav12','','images/nav495176622a.gif',1)" href="Agent-Login.jsp"><img name="g_nav12" onLoad="MM_preloadImages('images/nav495176622a.gif')" alt="" border=0 src="images/nav495176622i.gif"></a></div>
-<div id="g_nav13d" style="position:absolute; left:413px; top:87px; z-index:7"><a onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('g_nav13','','images/nav495176623a.gif',1)" href="mailto:K1359384@kingston.ac.uk"><img name="g_nav13" onLoad="MM_preloadImages('images/nav495176623a.gif')" alt="" border=0 src="images/nav495176623i.gif"></a></div>
+<div id="g_nav13d" style="position:absolute; left:413px; top:87px; z-index:7"><a onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('g_nav13','','images/nav495176623a.gif',1)" href="mailto:k1359384@kingston.ac.uk"><img name="g_nav13" onLoad="MM_preloadImages('images/nav495176623a.gif')" alt="" border=0 src="images/nav495176623i.gif"></a></div>
 
-<div id="text3" style="position:absolute; overflow:hidden; left:263px; top:144px; width:310px; height:108px; z-index:8">
+<div id="text3" style="position:absolute; overflow:hidden; left:275px; top:137px; width:215px; height:28px; z-index:8">
 <div class="wpmd">
-<div><font color="#FF9900" face="Arial Narrow" class="ws16">Welcome to SecureJob</font></div>
-<div><font color="#808080" face="Tahoma" class="ws8">..............................................................................................................</font></div>
-<div align=justify><font color="#808080" face="Tahoma" class="ws8">SecureJob is fastest growing jobsite allowing jobseekers to access thousands of jobs and post their CVs online. It gives access to recruitment agents as well to search&nbsp; eligible candidates for their clients.</font></div>
+<div><font color="#FF9900" face="Arial Narrow" class="ws16">SecureJob Login - Agent</font></div>
+<div><font color="#808080" face="Tahoma" class="ws8"><BR></font></div>
 </div></div>
 
-<div id="image5" style="position:absolute; overflow:hidden; left:612px; top:140px; width:161px; height:116px; z-index:9"><img src="images/1-pic-2.jpg" alt="" title="" border=0 width=161 height=116></div>
+<input name="formtext1" type="text" style="position:absolute;width:210px;left:357px;top:208px;z-index:9">
+<input name="formtext2" type="text" style="position:absolute;width:211px;left:356px;top:245px;z-index:10">
+<div id="text1" style="position:absolute; overflow:hidden; left:273px; top:211px; width:80px; height:19px; z-index:11">
+<div class="wpmd">
+<div><font color="#333333"><B>Username</B></font></div>
+</div></div>
 
-<div id="g_flash1" style="position:absolute; overflow:hidden; left:18px; top:136px; width:227px; height:255px; z-index:10">
+<div id="text4" style="position:absolute; overflow:hidden; left:273px; top:245px; width:77px; height:19px; z-index:12">
+<div class="wpmd">
+<div><font color="#333333"><B>Password</B></font></div>
+</div></div>
+
+<input name="submit" type="submit" value="Submit" style="position:absolute;left:357px;top:288px;z-index:13">
+<div id="hr1" style="position:absolute; overflow:hidden; left:17px; top:410px; width:764px; height:17px; z-index:14">
+<hr size=2 width=764>
+</div>
+
+<div id="text5" style="position:absolute; overflow:hidden; left:264px; top:440px; width:223px; height:119px; z-index:15; background-color:#F7F7F7">
+<div class="wpmd">
+<div><font color="#333333" face="Tahoma" class="ws11"><B>Totaljobs Official Site?</B></font></div>
+<div><font color="#3366FF" face="Tahoma">www.totaljobs.com/?</font></div>
+<div><font color="#969696" face="Tahoma" class="ws8">Find New Staff To Fill Vacancies? Or Find Yourself A Great Job Today!</font></div>
+<div><font color="#808080" face="Tahoma" class="ws8"><BR></font></div>
+</div></div>
+
+<div id="text6" style="position:absolute; overflow:hidden; left:517px; top:433px; width:223px; height:119px; z-index:16; background-color:#F7F7F7">
+<div class="wpmd">
+<div><font color="#333333" face="Tahoma" class="ws11"><B>Part time work in UK?</B></font></div>
+<div><font color="#3366FF" face="Tahoma" class="ws8">jobs.trovit.com</font></div>
+<div><font color="#808080" face="Tahoma" class="ws8">Apply now!!</font></div>
+<div><font color="#808080" face="Tahoma" class="ws8"><BR></font></div>
+</div></div>
+
+<div id="flash1" style="position:absolute; overflow:hidden; left:18px; top:136px; width:227px; height:255px; z-index:17">
 <script type="text/javascript">
-AC_RunFlashContent("id","g_flash1","width","227","height","255","quality","high","autoplay","true","loop","true","wmode","window","codebase","http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab","pluginspage","http://www.macromedia.com/go/getflashplayer","src","images/business04.swf");
+AC_RunFlashContent("id","flash1","width","227","height","255","quality","high","autoplay","true","loop","true","wmode","window","codebase","http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab","pluginspage","http://www.macromedia.com/go/getflashplayer","src","images/business04.swf");
 </script>
 <noscript>
 <object classid="clsid:D27CDB6E-AE6D-11CF-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab" width=227 height=255>
@@ -161,42 +192,24 @@ AC_RunFlashContent("id","g_flash1","width","227","height","255","quality","high"
 </noscript>
 </div>
 
-<input name="formtext1" type="text" style="position:absolute;width:115px;left:259px;top:303px;z-index:11">
-<input name="formtext2" type="text" style="position:absolute;width:115px;left:392px;top:302px;z-index:12">
-<div id="text1" style="position:absolute; overflow:hidden; left:260px; top:281px; width:31px; height:19px; z-index:13">
+<div id="text7" style="position:absolute; overflow:hidden; left:274px; top:173px; width:208px; height:25px; z-index:18">
 <div class="wpmd">
-<div><font color="#333333" face="Arial Narrow">Field</font></div>
+<div><font face="Tahoma">Please enter your details to login</font></div>
 </div></div>
 
-<div id="text4" style="position:absolute; overflow:hidden; left:393px; top:281px; width:48px; height:19px; z-index:14">
+<input name="reset" type="submit" value="Reset" style="position:absolute;left:440px;top:288px;z-index:19">
+<div id="text8" style="position:absolute; overflow:hidden; left:299px; top:328px; width:96px; height:28px; z-index:20">
 <div class="wpmd">
-<div><font color="#333333" face="Arial Narrow">Location</font></div>
+<div><font color="#FF9900" face="Arial Narrow" class="ws12"><B>Register here!</B></font></div>
 </div></div>
 
-<input name="search" type="submit" value="Search" style="position:absolute;left:520px;top:302px;z-index:15">
-<div id="hr1" style="position:absolute; overflow:hidden; left:17px; top:410px; width:764px; height:17px; z-index:16">
-<hr size=2 width=764>
-</div>
-
-<div id="text5" style="position:absolute; overflow:hidden; left:264px; top:440px; width:223px; height:119px; z-index:17; background-color:#F7F7F7">
+<div id="text9" style="position:absolute; overflow:hidden; left:409px; top:327px; width:158px; height:28px; z-index:21">
 <div class="wpmd">
-<div><font color="#333333" face="Tahoma" class="ws11"><B>Totaljobs Official Site?</B></font></div>
-<div><font color="#3366FF" face="Tahoma">www.totaljobs.com/?</font></div>
-<div><font color="#969696" face="Tahoma" class="ws8">Find New Staff To Fill Vacancies? Or Find Yourself A Great Job Today!</font></div>
-<div><font color="#808080" face="Tahoma" class="ws8"><BR></font></div>
-</div></div>
-
-<div id="text6" style="position:absolute; overflow:hidden; left:517px; top:433px; width:223px; height:119px; z-index:18; background-color:#F7F7F7">
-<div class="wpmd">
-<div><font color="#333333" face="Tahoma" class="ws11"><B>Part time work in UK?</B></font></div>
-<div><font color="#3366FF" face="Tahoma" class="ws8">jobs.trovit.com</font></div>
-<div><font color="#808080" face="Tahoma" class="ws8">Apply now!!</font></div>
-<div><font color="#808080" face="Tahoma" class="ws8"><BR></font></div>
+<div><font color="#FF9900" face="Arial Narrow" class="ws12"><B>Forgot your password?</B></font></div>
 </div></div>
 
 </div>
 
 </body>
 </html>
-
 
