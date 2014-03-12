@@ -100,7 +100,7 @@ body {text-align:center;margin:0}
 </head>
 <body>
 <div id="container">
-<div id="image1" style="position:absolute; overflow:hidden; left:21px; top:760px; width:752px; height:64px; z-index:0"><img src="images/bot21.jpg" alt="" title="" border=0 width=752 height=64></div>
+<div id="image1" style="position:absolute; overflow:hidden; left:18px; top:621px; width:764px; height:64px; z-index:0"><img src="images/bot21.jpg" alt="" title="" border=0 width=764 height=64></div>
 
 <div id="text2" style="position:absolute; overflow:hidden; left:19px; top:441px; width:223px; height:119px; z-index:1; background-color:#F7F7F7">
 <div class="wpmd">
@@ -123,10 +123,10 @@ body {text-align:center;margin:0}
 
 <div id="g_image2" style="position:absolute; overflow:hidden; left:19px; top:32px; width:56px; height:52px; z-index:6"><img src="images/logo2.gif" alt="" title="" border=0 width=56 height=52></div>
 
-<div id="g_nav10d" style="position:absolute; left:17px; top:87px; z-index:7"><a onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('g_nav10','','images/nav495176620a.gif',1)" href="Homepage.jsp"><img name="g_nav10" onLoad="MM_preloadImages('images/nav495176620a.gif')" alt="" border=0 src="images/nav495176620i.gif"></a></div>
-<div id="g_nav11d" style="position:absolute; left:149px; top:87px; z-index:7"><a onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('g_nav11','','images/nav495176621a.gif',1)" href="Jobseeker-Login.jsp"><img name="g_nav11" onLoad="MM_preloadImages('images/nav495176621a.gif')" alt="" border=0 src="images/nav495176621i.gif"></a></div>
-<div id="g_nav12d" style="position:absolute; left:281px; top:87px; z-index:7"><a onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('g_nav12','','images/nav495176622a.gif',1)" href="Agent-Login.jsp"><img name="g_nav12" onLoad="MM_preloadImages('images/nav495176622a.gif')" alt="" border=0 src="images/nav495176622i.gif"></a></div>
-<div id="g_nav13d" style="position:absolute; left:413px; top:87px; z-index:7"><a onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('g_nav13','','images/nav495176623a.gif',1)" href="mailto:K1359384@kingston.ac.uk"><img name="g_nav13" onLoad="MM_preloadImages('images/nav495176623a.gif')" alt="" border=0 src="images/nav495176623i.gif"></a></div>
+<div id="g_nav10d" style="position:absolute; left:17px; top:87px; z-index:7"><a onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('g_nav10','','images/nav495176620a.gif',1)" href="Homepage.html"><img name="g_nav10" onLoad="MM_preloadImages('images/nav495176620a.gif')" alt="" border=0 src="images/nav495176620i.gif"></a></div>
+<div id="g_nav11d" style="position:absolute; left:149px; top:87px; z-index:7"><a onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('g_nav11','','images/nav495176621a.gif',1)" href="Jobseeker-Login.html"><img name="g_nav11" onLoad="MM_preloadImages('images/nav495176621a.gif')" alt="" border=0 src="images/nav495176621i.gif"></a></div>
+<div id="g_nav12d" style="position:absolute; left:281px; top:87px; z-index:7"><a onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('g_nav12','','images/nav495176622a.gif',1)" href="Agent-Login.html"><img name="g_nav12" onLoad="MM_preloadImages('images/nav495176622a.gif')" alt="" border=0 src="images/nav495176622i.gif"></a></div>
+<div id="g_nav13d" style="position:absolute; left:413px; top:87px; z-index:7"><a onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('g_nav13','','images/nav495176623a.gif',1)" href="mailto:support@webpage-maker.com"><img name="g_nav13" onLoad="MM_preloadImages('images/nav495176623a.gif')" alt="" border=0 src="images/nav495176623i.gif"></a></div>
 
 <div id="text3" style="position:absolute; overflow:hidden; left:263px; top:144px; width:310px; height:108px; z-index:8">
 <div class="wpmd">
@@ -198,5 +198,3 @@ AC_RunFlashContent("id","g_flash1","width","227","height","255","quality","high"
 
 </body>
 </html>
-
-

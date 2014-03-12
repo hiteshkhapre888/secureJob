@@ -7,6 +7,7 @@
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
 <head>
 <title>Untitled</title>
@@ -87,7 +88,7 @@ function MM_swapImage() {
 div#container
 {
 	position:relative;
-	width: 799px;
+	width: 793px;
 	margin-top: 0px;
 	margin-left: auto;
 	margin-right: auto;
@@ -99,63 +100,46 @@ body {text-align:center;margin:0}
 </head>
 <body>
 <div id="container">
-<div id="image1" style="position:absolute; overflow:hidden; left:21px; top:760px; width:752px; height:64px; z-index:0"><img src="images/bot21.jpg" alt="" title="" border=0 width=752 height=64></div>
+<div id="image1" style="position:absolute; overflow:hidden; left:17px; top:620px; width:765px; height:64px; z-index:0"><img src="images/bot21.jpg" alt="" title="" border=0 width=765 height=64></div>
 
-<div id="text2" style="position:absolute; overflow:hidden; left:609px; top:425px; width:163px; height:329px; z-index:1; background-color:#F7F7F7">
-<div class="wpmd">
-<div><font class="ws8" color="#808080" face="Tahoma"><U><BR></U></font></div>
-</div></div>
+<div id="image14" style="position:absolute; overflow:hidden; left:162px; top:145px; width:20px; height:273px; z-index:1"><img src="images/ver_line.gif" alt="" title="" border=0 width=20 height=273></div>
 
-<div id="image14" style="position:absolute; overflow:hidden; left:162px; top:145px; width:20px; height:273px; z-index:2"><img src="images/ver_line.gif" alt="" title="" border=0 width=20 height=273></div>
-
-<div id="text5" style="position:absolute; overflow:hidden; left:9px; top:170px; width:153px; height:205px; z-index:3">
-<div class="wpmd">
-<UL>
-<li><font color="#969696" face="Tahoma" class="ws8"><B>MY PROFILE</B></font></li>
-<li><font color="#969696" face="Tahoma" class="ws8"><B>DOWNLOAD MY CV</B></font></li>
-<li><font color="#969696" face="Tahoma" class="ws8"><B>SEARCH JOB</B></font></li>
-<li><font color="#969696" face="Tahoma" class="ws8"><B>CAREER ADVICE</B></font></li>
-<li><font color="#969696" face="Tahoma" class="ws8"><B>HELP</B></font></li>
-<li><font color="#969696" face="Tahoma" class="ws8"><B>LOG OUT</B></font></li>
-</UL>
-</div></div>
-
-<div id="text3" style="position:absolute; overflow:hidden; left:264px; top:144px; width:204px; height:28px; z-index:4">
+<div id="text3" style="position:absolute; overflow:hidden; left:264px; top:144px; width:204px; height:28px; z-index:2">
 <div class="wpmd">
 <div><font color="#FF9900" face="Arial Narrow" class="ws16">Welcome to SecureJob</font></div>
 <div><font color="#808080" face="Tahoma" class="ws8"><BR></font></div>
 </div></div>
 
-<div id="g_nav10d" style="position:absolute; left:17px; top:87px; z-index:5"><a onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('g_nav10','','images/nav495176620a.gif',1)" href="HomePage.jsp"><img name="g_nav10" onLoad="MM_preloadImages('images/nav495176620a.gif')" alt="" border=0 src="images/nav495176620i.gif"></a></div>
-<div id="g_nav11d" style="position:absolute; left:149px; top:87px; z-index:5"><a onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('g_nav11','','images/nav495176621a.gif',1)" href="Jobseeker-Login.jsp"><img name="g_nav11" onLoad="MM_preloadImages('images/nav495176621a.gif')" alt="" border=0 src="images/nav495176621i.gif"></a></div>
-<div id="g_nav12d" style="position:absolute; left:281px; top:87px; z-index:5"><a onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('g_nav12','','images/nav495176622a.gif',1)" href="Agent-Login.jsp"><img name="g_nav12" onLoad="MM_preloadImages('images/nav495176622a.gif')" alt="" border=0 src="images/nav495176622i.gif"></a></div>
-<div id="g_nav13d" style="position:absolute; left:413px; top:87px; z-index:5"><a onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('g_nav13','','images/nav495176623a.gif',1)" href="mailto:k1359384@kingston.ac.uk"><img name="g_nav13" onLoad="MM_preloadImages('images/nav495176623a.gif')" alt="" border=0 src="images/nav495176623i.gif"></a></div>
+<div id="g_nav10d" style="position:absolute; left:17px; top:87px; z-index:3"><a onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('g_nav10','','images/nav495176620a.gif',1)" href="Homepage.html"><img name="g_nav10" onLoad="MM_preloadImages('images/nav495176620a.gif')" alt="" border=0 src="images/nav495176620i.gif"></a></div>
+<div id="g_nav11d" style="position:absolute; left:149px; top:87px; z-index:3"><a onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('g_nav11','','images/nav495176621a.gif',1)" href="Jobseeker-Login.html"><img name="g_nav11" onLoad="MM_preloadImages('images/nav495176621a.gif')" alt="" border=0 src="images/nav495176621i.gif"></a></div>
+<div id="g_nav12d" style="position:absolute; left:281px; top:87px; z-index:3"><a onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('g_nav12','','images/nav495176622a.gif',1)" href="Agent-Login.html"><img name="g_nav12" onLoad="MM_preloadImages('images/nav495176622a.gif')" alt="" border=0 src="images/nav495176622i.gif"></a></div>
+<div id="g_nav13d" style="position:absolute; left:413px; top:87px; z-index:3"><a onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('g_nav13','','images/nav495176623a.gif',1)" href="mailto:support@webpage-maker.com"><img name="g_nav13" onLoad="MM_preloadImages('images/nav495176623a.gif')" alt="" border=0 src="images/nav495176623i.gif"></a></div>
 
-<div id="g_text1" style="position:absolute; overflow:hidden; left:78px; top:42px; width:192px; height:30px; z-index:6">
+<div id="g_text1" style="position:absolute; overflow:hidden; left:78px; top:42px; width:192px; height:30px; z-index:4">
 <div class="wpmd">
 <div><font color="#3366FF" class="ws20"><B>Secure Job</B></font></div>
 </div></div>
 
-<div id="g_image3" style="position:absolute; overflow:hidden; left:610px; top:0px; width:162px; height:128px; z-index:7"><img src="images/building.jpg" alt="" title="" border=0 width=162 height=128></div>
+<div id="g_image3" style="position:absolute; overflow:hidden; left:610px; top:0px; width:162px; height:128px; z-index:5"><img src="images/building.jpg" alt="" title="" border=0 width=162 height=128></div>
 
-<div id="g_image2" style="position:absolute; overflow:hidden; left:19px; top:32px; width:56px; height:52px; z-index:8"><img src="images/logo2.gif" alt="" title="" border=0 width=56 height=52></div>
+<div id="g_image2" style="position:absolute; overflow:hidden; left:19px; top:32px; width:56px; height:52px; z-index:6"><img src="images/logo2.gif" alt="" title="" border=0 width=56 height=52></div>
 
-<div id="g_image1" style="position:absolute; overflow:hidden; left:21px; top:1px; width:584px; height:8px; z-index:9"><img src="images/busi2_line.jpg" alt="" title="" border=0 width=584 height=8></div>
+<div id="g_image1" style="position:absolute; overflow:hidden; left:21px; top:1px; width:584px; height:8px; z-index:7"><img src="images/busi2_line.jpg" alt="" title="" border=0 width=584 height=8></div>
 
-<input name="formtext1" type="text" style="position:absolute;width:115px;left:227px;top:215px;z-index:10">
-<input name="formtext2" type="text" style="position:absolute;width:115px;left:360px;top:214px;z-index:11">
-<div id="text4" style="position:absolute; overflow:hidden; left:228px; top:193px; width:31px; height:19px; z-index:12">
+<input name="formtext1" type="text" style="position:absolute;width:115px;left:227px;top:215px;z-index:8">
+<input name="formtext2" type="text" style="position:absolute;width:115px;left:360px;top:214px;z-index:9">
+<div id="text4" style="position:absolute; overflow:hidden; left:228px; top:193px; width:31px; height:19px; z-index:10">
 <div class="wpmd">
 <div><font color="#333333" face="Arial Narrow">Field</font></div>
 </div></div>
 
-<div id="text7" style="position:absolute; overflow:hidden; left:361px; top:193px; width:48px; height:19px; z-index:13">
+<div id="text7" style="position:absolute; overflow:hidden; left:361px; top:193px; width:48px; height:19px; z-index:11">
 <div class="wpmd">
 <div><font color="#333333" face="Arial Narrow">Location</font></div>
 </div></div>
 
-<input name="formbutton1" type="submit" value="Search" style="position:absolute;left:488px;top:214px;z-index:14">
-<div id="text1" style="position:absolute; overflow:hidden; left:19px; top:441px; width:223px; height:119px; z-index:15; background-color:#F7F7F7">
+<input name="formbutton1" type="submit" value="Search" style="position:absolute;left:488px;top:214px;z-index:12">
+<div id="text1" style="position:absolute; overflow:hidden; left:19px; top:441px; width:223px; height:119px; z-index:13; background-color:#F7F7F7">
 <div class="wpmd">
 <div><font color="#333333" face="Tahoma" class="ws11"><B>Mystery shopping in UK?</B></font></div>
 <div><font color="#3366FF" face="Tahoma" class="ws8">www.calsteragency.com/?</font></div>
@@ -163,13 +147,13 @@ body {text-align:center;margin:0}
 <div><font color="#808080" face="Tahoma" class="ws8"><BR></font></div>
 </div></div>
 
-<div id="image2" style="position:absolute; overflow:hidden; left:770px; top:0px; width:20px; height:620px; z-index:16"><img src="images/ver_line.gif" alt="" title="" border=0 width=20 height=620></div>
+<div id="image2" style="position:absolute; overflow:hidden; left:770px; top:0px; width:20px; height:620px; z-index:14"><img src="images/ver_line.gif" alt="" title="" border=0 width=20 height=620></div>
 
-<div id="hr1" style="position:absolute; overflow:hidden; left:17px; top:410px; width:764px; height:17px; z-index:17">
+<div id="hr1" style="position:absolute; overflow:hidden; left:17px; top:410px; width:764px; height:17px; z-index:15">
 <hr size=2 width=764>
 </div>
 
-<div id="text6" style="position:absolute; overflow:hidden; left:264px; top:440px; width:223px; height:119px; z-index:18; background-color:#F7F7F7">
+<div id="text6" style="position:absolute; overflow:hidden; left:264px; top:440px; width:223px; height:119px; z-index:16; background-color:#F7F7F7">
 <div class="wpmd">
 <div><font color="#333333" face="Tahoma" class="ws11"><B>Totaljobs Official Site?</B></font></div>
 <div><font color="#3366FF" face="Tahoma">www.totaljobs.com/?</font></div>
@@ -177,11 +161,59 @@ body {text-align:center;margin:0}
 <div><font color="#808080" face="Tahoma" class="ws8"><BR></font></div>
 </div></div>
 
-<div id="text8" style="position:absolute; overflow:hidden; left:517px; top:433px; width:223px; height:119px; z-index:19; background-color:#F7F7F7">
+<div id="text8" style="position:absolute; overflow:hidden; left:517px; top:433px; width:223px; height:119px; z-index:17; background-color:#F7F7F7">
 <div class="wpmd">
 <div><font color="#333333" face="Tahoma" class="ws11"><B>Part time work in UK?</B></font></div>
 <div><font color="#3366FF" face="Tahoma" class="ws8">jobs.trovit.com</font></div>
 <div><font color="#808080" face="Tahoma" class="ws8">Apply now!!</font></div>
+<div><font color="#808080" face="Tahoma" class="ws8"><BR></font></div>
+</div></div>
+
+<div id="text9" style="position:absolute; overflow:hidden; left:3px; top:168px; width:123px; height:28px; z-index:18">
+<div class="wpmd">
+<UL>
+<li><font color="#C0C0C0" face="Tahoma" class="ws8"><B>MY PROFILE</B></font></li>
+</UL>
+<div><font color="#808080" face="Tahoma" class="ws8"><BR></font></div>
+</div></div>
+
+<div id="text10" style="position:absolute; overflow:hidden; left:3px; top:194px; width:165px; height:28px; z-index:19">
+<div class="wpmd">
+<UL>
+<li><font color="#C0C0C0" face="Tahoma" class="ws8"><B>DOWNLOAD MY CV</B></font></li>
+</UL>
+<div><font color="#808080" face="Tahoma" class="ws8"><BR></font></div>
+</div></div>
+
+<div id="text11" style="position:absolute; overflow:hidden; left:3px; top:220px; width:123px; height:28px; z-index:20">
+<div class="wpmd">
+<UL>
+<li><font color="#C0C0C0" face="Tahoma" class="ws8"><B>SEARCH JOB</B></font></li>
+</UL>
+<div><font color="#808080" face="Tahoma" class="ws8"><BR></font></div>
+</div></div>
+
+<div id="text12" style="position:absolute; overflow:hidden; left:3px; top:243px; width:150px; height:28px; z-index:21">
+<div class="wpmd">
+<UL>
+<li><font color="#C0C0C0" face="Tahoma" class="ws8"><B>CAREER ADVICE</B></font></li>
+</UL>
+<div><font color="#808080" face="Tahoma" class="ws8"><BR></font></div>
+</div></div>
+
+<div id="text2" style="position:absolute; overflow:hidden; left:3px; top:267px; width:123px; height:28px; z-index:22">
+<div class="wpmd">
+<UL>
+<li><font color="#C0C0C0" face="Tahoma" class="ws8"><B>HELP</B></font></li>
+</UL>
+<div><font color="#808080" face="Tahoma" class="ws8"><BR></font></div>
+</div></div>
+
+<div id="text5" style="position:absolute; overflow:hidden; left:3px; top:292px; width:123px; height:28px; z-index:23">
+<div class="wpmd">
+<UL>
+<li><font color="#C0C0C0" face="Tahoma" class="ws8"><B>LOG OUT</B></font></li>
+</UL>
 <div><font color="#808080" face="Tahoma" class="ws8"><BR></font></div>
 </div></div>
 
