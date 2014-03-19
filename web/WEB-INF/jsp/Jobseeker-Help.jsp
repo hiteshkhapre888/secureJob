@@ -181,7 +181,7 @@ body {text-align:center;margin:0}
 <div id="text9" style="position:absolute; overflow:hidden; left:3px; top:168px; width:123px; height:28px; z-index:9">
 <div class="wpmd">
 <UL>
-<li><font color="#C0C0C0" face="Tahoma" class="ws8"><B>MY PROFILE</B></font></li>
+    <li><a href="Jobseeker-MyProfile.htm"><font color="#C0C0C0" face="Tahoma" class="ws8"><B>MY PROFILE</B></font></a></li>
 </UL>
 <div><font color="#808080" face="Tahoma" class="ws8"><BR></font></div>
 </div></div>
@@ -189,7 +189,7 @@ body {text-align:center;margin:0}
 <div id="text10" style="position:absolute; overflow:hidden; left:3px; top:194px; width:165px; height:28px; z-index:10">
 <div class="wpmd">
 <UL>
-<li><font color="#C0C0C0" face="Tahoma" class="ws8"><B>DOWNLOAD MY CV</B></font></li>
+<li><a href="Jobseeker-DownloadCV.htm" ><font color="#C0C0C0" face="Tahoma" class="ws8"><B>DOWNLOAD MY CV</B></font></a></li>
 </UL>
 <div><font color="#808080" face="Tahoma" class="ws8"><BR></font></div>
 </div></div>
@@ -205,7 +205,7 @@ body {text-align:center;margin:0}
 <div id="text12" style="position:absolute; overflow:hidden; left:3px; top:243px; width:150px; height:28px; z-index:12">
 <div class="wpmd">
 <UL>
-<li><font color="#C0C0C0" face="Tahoma" class="ws8"><B>CAREER ADVICE</B></font></li>
+    <li><a href="Jobseeker-CareerAdvice.htm" ><font color="#C0C0C0" face="Tahoma" class="ws8"><B>CAREER ADVICE</B></font></a></li>
 </UL>
 <div><font color="#808080" face="Tahoma" class="ws8"><BR></font></div>
 </div></div>
@@ -213,7 +213,7 @@ body {text-align:center;margin:0}
 <div id="text2" style="position:absolute; overflow:hidden; left:3px; top:267px; width:123px; height:28px; z-index:13">
 <div class="wpmd">
 <UL>
-<li><font color="#C0C0C0" face="Tahoma" class="ws8"><B>HELP</B></font></li>
+<li><a href="Jobseeker-Help.htm" ><font color="#C0C0C0" face="Tahoma" class="ws8"><B>HELP</B></font></a></li>
 </UL>
 <div><font color="#808080" face="Tahoma" class="ws8"><BR></font></div>
 </div></div>

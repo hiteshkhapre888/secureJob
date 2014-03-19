@@ -5,13 +5,17 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.SessionAttributes;
 
 @Controller
-@RequestMapping("Jobseeker-DownloadCV.htm")
-public class JobseekerDownloadCVController {
+@RequestMapping("Jobseeker-Registration.htm")
+@SessionAttributes("persons")
+public class JobseekerRegistrationController {
 
     @RequestMapping(method = RequestMethod.GET)
     public String getCurrentPage(ModelMap model) {
-        return "Jobseeker-DownloadCV";
+//        Persons person = new Persons();
+//        model.addAttribute(person);
+        return "Jobseeker-Registration";
     }
 }

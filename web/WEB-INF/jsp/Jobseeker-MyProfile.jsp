@@ -152,7 +152,7 @@ body {text-align:center;margin:0}
 <div id="text9" style="position:absolute; overflow:hidden; left:3px; top:168px; width:123px; height:28px; z-index:12">
 <div class="wpmd">
 <UL>
-<li><font color="#C0C0C0" face="Tahoma" class="ws8"><B>MY PROFILE</B></font></li>
+    <li><a href="Jobseeker-MyProfile.htm"><font color="#C0C0C0" face="Tahoma" class="ws8"><B>MY PROFILE</B></font></a></li>
 </UL>
 <div><font color="#808080" face="Tahoma" class="ws8"><BR></font></div>
 </div></div>

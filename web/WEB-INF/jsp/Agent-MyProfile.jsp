@@ -9,7 +9,7 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
 <head>
-<title>Untitled</title>
+<title>Agent - Profile</title>
 <meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
 <meta name="generator" content="Web Page Maker">
 <style type="text/css">
@@ -103,9 +103,9 @@ body {text-align:center;margin:0}
 
 <div id="image14" style="position:absolute; overflow:hidden; left:162px; top:145px; width:20px; height:273px; z-index:1"><img src="images/ver_line.gif" alt="" title="" border=0 width=20 height=273></div>
 
-<div id="g_nav10d" style="position:absolute; left:17px; top:87px; z-index:2"><a onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('g_nav10','','images/nav495176620a.gif',1)" href="Homepage.html"><img name="g_nav10" onLoad="MM_preloadImages('images/nav495176620a.gif')" alt="" border=0 src="images/nav495176620i.gif"></a></div>
-<div id="g_nav11d" style="position:absolute; left:149px; top:87px; z-index:2"><a onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('g_nav11','','images/nav495176621a.gif',1)" href="Jobseeker-Login.html"><img name="g_nav11" onLoad="MM_preloadImages('images/nav495176621a.gif')" alt="" border=0 src="images/nav495176621i.gif"></a></div>
-<div id="g_nav12d" style="position:absolute; left:281px; top:87px; z-index:2"><a onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('g_nav12','','images/nav495176622a.gif',1)" href="Agent-Login.html"><img name="g_nav12" onLoad="MM_preloadImages('images/nav495176622a.gif')" alt="" border=0 src="images/nav495176622i.gif"></a></div>
+<div id="g_nav10d" style="position:absolute; left:17px; top:87px; z-index:2"><a onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('g_nav10','','images/nav495176620a.gif',1)" href="Homepage.htm"><img name="g_nav10" onLoad="MM_preloadImages('images/nav495176620a.gif')" alt="" border=0 src="images/nav495176620i.gif"></a></div>
+<div id="g_nav11d" style="position:absolute; left:149px; top:87px; z-index:2"><a onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('g_nav11','','images/nav495176621a.gif',1)" href="Jobseeker-Login.htm"><img name="g_nav11" onLoad="MM_preloadImages('images/nav495176621a.gif')" alt="" border=0 src="images/nav495176621i.gif"></a></div>
+<div id="g_nav12d" style="position:absolute; left:281px; top:87px; z-index:2"><a onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('g_nav12','','images/nav495176622a.gif',1)" href="Agent-Login.htm"><img name="g_nav12" onLoad="MM_preloadImages('images/nav495176622a.gif')" alt="" border=0 src="images/nav495176622i.gif"></a></div>
 <div id="g_nav13d" style="position:absolute; left:413px; top:87px; z-index:2"><a onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('g_nav13','','images/nav495176623a.gif',1)" href="mailto:support@webpage-maker.com"><img name="g_nav13" onLoad="MM_preloadImages('images/nav495176623a.gif')" alt="" border=0 src="images/nav495176623i.gif"></a></div>
 
 <div id="g_text1" style="position:absolute; overflow:hidden; left:78px; top:42px; width:192px; height:30px; z-index:3">
@@ -152,7 +152,7 @@ body {text-align:center;margin:0}
 <div id="text11" style="position:absolute; overflow:hidden; left:2px; top:170px; width:123px; height:28px; z-index:12">
 <div class="wpmd">
 <UL>
-<li><font color="#C0C0C0" face="Tahoma" class="ws8"><B>MY PROFILE</B></font></li>
+<li><a href="Agent-MyProfile.htm"><font color="#C0C0C0" face="Tahoma" class="ws8"><B>MY PROFILE</B></font></a></li>
 </UL>
 <div><font color="#808080" face="Tahoma" class="ws8"><BR></font></div>
 </div></div>
@@ -160,7 +160,7 @@ body {text-align:center;margin:0}
 <div id="text5" style="position:absolute; overflow:hidden; left:3px; top:194px; width:165px; height:28px; z-index:13">
 <div class="wpmd">
 <UL>
-<li><font color="#C0C0C0" face="Tahoma" class="ws8"><B>SEARCH CANDIDATE</B></font></li>
+<li><a href="Agent-Welcome-Page.htm"><font color="#C0C0C0" face="Tahoma" class="ws8"><B>SEARCH CANDIDATE</B></font></a></li>
 </UL>
 <div><font color="#808080" face="Tahoma" class="ws8"><BR></font></div>
 </div></div>
@@ -168,7 +168,7 @@ body {text-align:center;margin:0}
 <div id="text12" style="position:absolute; overflow:hidden; left:3px; top:220px; width:123px; height:28px; z-index:14">
 <div class="wpmd">
 <UL>
-<li><font color="#C0C0C0" face="Tahoma" class="ws8"><B>HELP</B></font></li>
+<li><a href="Agent-Help.htm"><font color="#C0C0C0" face="Tahoma" class="ws8"><B>HELP</B></font></a></li>
 </UL>
 <div><font color="#808080" face="Tahoma" class="ws8"><BR></font></div>
 </div></div>
