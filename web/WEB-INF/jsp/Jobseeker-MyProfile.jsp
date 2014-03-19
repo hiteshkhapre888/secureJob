@@ -103,14 +103,14 @@ body {text-align:center;margin:0}
 
 <div id="image14" style="position:absolute; overflow:hidden; left:162px; top:145px; width:20px; height:273px; z-index:1"><img src="images/ver_line.gif" alt="" title="" border=0 width=20 height=273></div>
 
-<div id="g_nav10d" style="position:absolute; left:17px; top:87px; z-index:2"><a onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('g_nav10','','images/nav495176620a.gif',1)" href="Homepage.html"><img name="g_nav10" onLoad="MM_preloadImages('images/nav495176620a.gif')" alt="" border=0 src="images/nav495176620i.gif"></a></div>
-<div id="g_nav11d" style="position:absolute; left:149px; top:87px; z-index:2"><a onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('g_nav11','','images/nav495176621a.gif',1)" href="Jobseeker-Login.html"><img name="g_nav11" onLoad="MM_preloadImages('images/nav495176621a.gif')" alt="" border=0 src="images/nav495176621i.gif"></a></div>
-<div id="g_nav12d" style="position:absolute; left:281px; top:87px; z-index:2"><a onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('g_nav12','','images/nav495176622a.gif',1)" href="Agent-Login.html"><img name="g_nav12" onLoad="MM_preloadImages('images/nav495176622a.gif')" alt="" border=0 src="images/nav495176622i.gif"></a></div>
+<div id="g_nav10d" style="position:absolute; left:17px; top:87px; z-index:2"><a onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('g_nav10','','images/nav495176620a.gif',1)" href="index.htm"><img name="g_nav10" onLoad="MM_preloadImages('images/nav495176620a.gif')" alt="" border=0 src="images/nav495176620i.gif"></a></div>
+<div id="g_nav11d" style="position:absolute; left:149px; top:87px; z-index:2"><a onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('g_nav11','','images/nav495176621a.gif',1)" href="Jobseeker-Login.htm"><img name="g_nav11" onLoad="MM_preloadImages('images/nav495176621a.gif')" alt="" border=0 src="images/nav495176621i.gif"></a></div>
+<div id="g_nav12d" style="position:absolute; left:281px; top:87px; z-index:2"><a onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('g_nav12','','images/nav495176622a.gif',1)" href="Agent-Login.htm"><img name="g_nav12" onLoad="MM_preloadImages('images/nav495176622a.gif')" alt="" border=0 src="images/nav495176622i.gif"></a></div>
 <div id="g_nav13d" style="position:absolute; left:413px; top:87px; z-index:2"><a onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('g_nav13','','images/nav495176623a.gif',1)" href="mailto:support@webpage-maker.com"><img name="g_nav13" onLoad="MM_preloadImages('images/nav495176623a.gif')" alt="" border=0 src="images/nav495176623i.gif"></a></div>
 
 <div id="g_text1" style="position:absolute; overflow:hidden; left:78px; top:42px; width:192px; height:30px; z-index:3">
 <div class="wpmd">
-<div><font color="#3366FF" class="ws20"><B>Secure Job</B></font></div>
+<div><font color="#3366FF" class="ws20"><B>Secure Jobs</B></font></div>
 </div></div>
 
 <div id="g_image3" style="position:absolute; overflow:hidden; left:610px; top:0px; width:162px; height:128px; z-index:4"><img src="images/building.jpg" alt="" title="" border=0 width=162 height=128></div>
@@ -160,7 +160,7 @@ body {text-align:center;margin:0}
 <div id="text10" style="position:absolute; overflow:hidden; left:3px; top:194px; width:165px; height:28px; z-index:13">
 <div class="wpmd">
 <UL>
-<li><font color="#C0C0C0" face="Tahoma" class="ws8"><B>DOWNLOAD MY CV</B></font></li>
+    <li><a href="Jobseeker-DownloadCV.htm" ><font color="#C0C0C0" face="Tahoma" class="ws8"><B>DOWNLOAD MY CV</B></font></a></li>
 </UL>
 <div><font color="#808080" face="Tahoma" class="ws8"><BR></font></div>
 </div></div>
@@ -176,7 +176,7 @@ body {text-align:center;margin:0}
 <div id="text12" style="position:absolute; overflow:hidden; left:3px; top:243px; width:150px; height:28px; z-index:15">
 <div class="wpmd">
 <UL>
-<li><font color="#C0C0C0" face="Tahoma" class="ws8"><B>CAREER ADVICE</B></font></li>
+    <li><a href="Jobseeker-CareerAdvice.htm" ><font color="#C0C0C0" face="Tahoma" class="ws8"><B>CAREER ADVICE</B></font></a></li>
 </UL>
 <div><font color="#808080" face="Tahoma" class="ws8"><BR></font></div>
 </div></div>
