@@ -5,6 +5,7 @@
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
+<%@ taglib uri="http://www.springframework.org/tags/form" prefix="form"%>
 <!DOCTYPE html>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
@@ -161,9 +162,9 @@
                     <div><font color="#FF9900" face="Arial Narrow" class="ws16">SecureJob Login - Agent</font></div>
                     <div><font color="#808080" face="Tahoma" class="ws8"><BR></font></div>
                 </div></div>
-            <form method="POST" action="login.action" >
-                <input name="formtext1" type="text" style="position:absolute;width:210px;left:357px;top:208px;z-index:9">
-                <input name="formtext2" type="text" style="position:absolute;width:211px;left:356px;top:245px;z-index:10">
+            <form:form method="POST" commandName="persons">
+                <form:input path="username" style="position:absolute;width:210px;left:357px;top:208px;z-index:9" />
+                <form:password path="password" style="position:absolute;width:211px;left:356px;top:245px;z-index:10" />
                 <div id="text1" style="position:absolute; overflow:hidden; left:273px; top:211px; width:80px; height:19px; z-index:11">
                     <div class="wpmd">
                         <div><font color="#333333"><B>Username</B></font></div>
@@ -174,11 +175,11 @@
                         <div><font color="#333333"><B>Password</B></font></div>
                     </div></div>
 
-                <input name="submit" type="submit" value="Submit" style="position:absolute;left:357px;top:288px;z-index:13" >
+                <input type="submit" value="Submit"  style="position:absolute;left:357px;top:288px;z-index:13" >
                 <div id="hr1" style="position:absolute; overflow:hidden; left:17px; top:410px; width:764px; height:17px; z-index:14">
                     <hr size=2 width=764>
                 </div>
-            </form>
+            </form:form>
             <div id="text5" style="position:absolute; overflow:hidden; left:264px; top:440px; width:223px; height:119px; z-index:15; background-color:#F7F7F7">
                 <div class="wpmd">
                     <div><font color="#333333" face="Tahoma" class="ws11"><B>Totaljobs Official Site?</B></font></div>
@@ -224,7 +225,7 @@
                     <div><font face="Tahoma">Please enter your details to login</font></div>
                 </div></div>
 
-            <input name="reset" type="submit" value="Reset" style="position:absolute;left:440px;top:288px;z-index:19">
+            <input type="submit" value="Reset" style="position:absolute;left:440px;top:288px;z-index:19" >
             <div id="text8" style="position:absolute; overflow:hidden; left:299px; top:328px; width:96px; height:28px; z-index:20">
                 <div class="wpmd">
                     <div><font color="#FF9900" face="Arial Narrow" class="ws12"><B>Register here!</B></font></div>
