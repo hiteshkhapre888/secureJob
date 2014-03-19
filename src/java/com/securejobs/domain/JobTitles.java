@@ -1,4 +1,4 @@
-package sec_job;
+package com.securejobs.domain;
 // Generated Feb 7, 2014 3:34:15 PM by Hibernate Tools 3.6.0
 
 
