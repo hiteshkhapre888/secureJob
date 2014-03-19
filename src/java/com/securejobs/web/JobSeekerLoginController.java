@@ -26,7 +26,7 @@ public class JobSeekerLoginController {
     public String getCurrentPage(ModelMap model) {
         Persons person = new Persons();
         model.addAttribute(person);
-        return "Agent-Login";
+        return "Jobseeker-Login";
     }
 
     @RequestMapping(params = "submit", method = RequestMethod.POST)

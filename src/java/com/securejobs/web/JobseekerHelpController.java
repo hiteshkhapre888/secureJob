@@ -7,11 +7,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
 @Controller
-@RequestMapping("JobseekerDownloadCVController.htm")
-public class JobseekerDownloadCVController {
+@RequestMapping("Jobseeker-Help.htm")
+public class JobseekerHelpController {
 
     @RequestMapping(method = RequestMethod.GET)
     public String getCurrentPage(ModelMap model) {
-        return "JobseekerDownloadCV";
+        return "Jobseeker-Help";
     }
 }

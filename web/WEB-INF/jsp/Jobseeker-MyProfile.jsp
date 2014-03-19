@@ -184,7 +184,7 @@ body {text-align:center;margin:0}
 <div id="text2" style="position:absolute; overflow:hidden; left:3px; top:267px; width:123px; height:28px; z-index:16">
 <div class="wpmd">
 <UL>
-<li><font color="#C0C0C0" face="Tahoma" class="ws8"><B>HELP</B></font></li>
+    <li><a href="Jobseeker-Help.htm" ><font color="#C0C0C0" face="Tahoma" class="ws8"><B>HELP</B></font></a></li>
 </UL>
 <div><font color="#808080" face="Tahoma" class="ws8"><BR></font></div>
 </div></div>
