@@ -29,10 +29,15 @@ public class AgentLoginController {
         return "Agent-Login";
     }
 
-    @RequestMapping(method = RequestMethod.POST)
+    @RequestMapping(params = "submit", method = RequestMethod.POST)
     public String onSubmit(@ModelAttribute("persons") Persons person) {
         personsService.add(person);
         return "redirect:Agent-Welcome-Page.htm";
+    }
+    
+    @RequestMapping(params = "reset", method = RequestMethod.POST)
+    public String onReset(){
+        return "Agent-Forgot-Password1";
     }
 
 }

@@ -1,13 +1,6 @@
-<%-- 
-    Document   : Agent-Login
-    Created on : Mar 11, 2014, 3:41:23 PM
-    Author     : Hitzyy
---%>
-
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <%@ taglib uri="http://www.springframework.org/tags/form" prefix="form"%>
 <!DOCTYPE html>
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
     <head>
         <title>Secure Jobs :: Agent Login</title>
@@ -175,7 +168,7 @@
                         <div><font color="#333333"><B>Password</B></font></div>
                     </div></div>
 
-                <input type="submit" value="Submit"  style="position:absolute;left:357px;top:288px;z-index:13" >
+                <input type="submit" name="submit" value="Submit"  style="position:absolute;left:357px;top:288px;z-index:13" >
                 <div id="hr1" style="position:absolute; overflow:hidden; left:17px; top:410px; width:764px; height:17px; z-index:14">
                     <hr size=2 width=764>
                 </div>
@@ -224,18 +217,18 @@
                 <div class="wpmd">
                     <div><font face="Tahoma">Please enter your details to login</font></div>
                 </div></div>
-
-            <input type="submit" value="Reset" style="position:absolute;left:440px;top:288px;z-index:19" >
+            <form:form method="POST">
+            <input type="submit" name="reset" value="Reset" style="position:absolute;left:440px;top:288px;z-index:19" >
+            </form:form>
             <div id="text8" style="position:absolute; overflow:hidden; left:299px; top:328px; width:96px; height:28px; z-index:20">
                 <div class="wpmd">
-                    <div><font color="#FF9900" face="Arial Narrow" class="ws12"><B>Register here!</B></font></div>
+                    <div><a href="Agent-Registration.htm"><font color="#FF9900" face="Arial Narrow" class="ws12"><B>Register here!</B></font></a></div>
                 </div></div>
 
             <div id="text9" style="position:absolute; overflow:hidden; left:409px; top:327px; width:158px; height:28px; z-index:21">
                 <div class="wpmd">
-                    <div><font color="#FF9900" face="Arial Narrow" class="ws12"><B>Forgot your password?</B></font></div>
+                    <div><a href="Agent-Forgot-Password1.htm"><font color="#FF9900" face="Arial Narrow" class="ws12"><B>Forgot your password?</B></font></a></div>
                 </div></div>
-
         </div>
 
     </body>
