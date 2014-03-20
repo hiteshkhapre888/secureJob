@@ -14,8 +14,8 @@ public class JobseekerRegistrationController {
 
     @RequestMapping(method = RequestMethod.GET)
     public String getCurrentPage(ModelMap model) {
-//        Persons person = new Persons();
-//        model.addAttribute(person);
+        Persons person = new Persons();
+        model.addAttribute(person);
         return "Jobseeker-Registration";
     }
 }

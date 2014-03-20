@@ -2,8 +2,10 @@ package com.securejobs.domain;
 // Generated Feb 7, 2014 3:34:15 PM by Hibernate Tools 3.6.0
 
 
+import java.util.ArrayList;
 import java.util.Date;
 import java.util.HashSet;
+import java.util.List;
 import java.util.Set;
 
 /**
@@ -42,12 +44,12 @@ public class Persons  implements java.io.Serializable {
      private String landline;
      private Date dob;
      private Short penaltyPoints;
-     private Set<EducationalQualifications> educationalQualificationses = new HashSet<EducationalQualifications>(0);
-     private Set<Experiences> experienceses = new HashSet<Experiences>(0);
-     private Set<JobTitles> jobTitleses = new HashSet<JobTitles>(0);
-     private Set<Referees> refereeses = new HashSet<Referees>(0);
-     private Set<Skills> skillses = new HashSet<Skills>(0);
-     private Set<ProfessionalQualifications> professionalQualificationses = new HashSet<ProfessionalQualifications>(0);
+     private ArrayList<EducationalQualifications> educationalQualificationses = new ArrayList<EducationalQualifications>();
+     private ArrayList<Experiences> experienceses = new ArrayList<Experiences>();
+     private ArrayList<JobTitles> jobTitleses = new ArrayList<JobTitles>();
+     private ArrayList<Referees> refereeses = new ArrayList<Referees>();
+     private ArrayList<Skills> skillses = new ArrayList<Skills>();
+     private ArrayList<ProfessionalQualifications> professionalQualificationses = new ArrayList<ProfessionalQualifications>();
 
     public Persons() {
     }
@@ -60,7 +62,7 @@ public class Persons  implements java.io.Serializable {
         this.forename1 = forename1;
         this.surname = surname;
     }
-    public Persons(int idUser, EducationLevels educationLevels, String username, String password, String title, String forename1, String forename2, String surname, String addressLine1, String addressLine2, String town, String postcode, String secondEmail, String personalUrl, byte[] photo, Boolean female, String postcodeStart, String authorityToWorkStatement, String contactPreference, Short noOfGcses, String gcseEnglishGrade, String gcseMathsGrade, Boolean fiveOrMoreGcses, Short noOfAlevels, Short ucasPoints, String studentStatus, String mobile, String landline, Date dob, Short penaltyPoints, Set<EducationalQualifications> educationalQualificationses, Set<Experiences> experienceses, Set<JobTitles> jobTitleses, Set<Referees> refereeses, Set<Skills> skillses, Set<ProfessionalQualifications> professionalQualificationses) {
+    public Persons(int idUser, EducationLevels educationLevels, String username, String password, String title, String forename1, String forename2, String surname, String addressLine1, String addressLine2, String town, String postcode, String secondEmail, String personalUrl, byte[] photo, Boolean female, String postcodeStart, String authorityToWorkStatement, String contactPreference, Short noOfGcses, String gcseEnglishGrade, String gcseMathsGrade, Boolean fiveOrMoreGcses, Short noOfAlevels, Short ucasPoints, String studentStatus, String mobile, String landline, Date dob, Short penaltyPoints, ArrayList<EducationalQualifications> educationalQualificationses, ArrayList<Experiences> experienceses, ArrayList<JobTitles> jobTitleses, ArrayList<Referees> refereeses, ArrayList<Skills> skillses, ArrayList<ProfessionalQualifications> professionalQualificationses) {
        this.idUser = idUser;
        this.educationLevels = educationLevels;
        this.username = username;
@@ -309,46 +311,46 @@ public class Persons  implements java.io.Serializable {
     public void setPenaltyPoints(Short penaltyPoints) {
         this.penaltyPoints = penaltyPoints;
     }
-    public Set<EducationalQualifications> getEducationalQualificationses() {
+    public ArrayList<EducationalQualifications> getEducationalQualificationses() {
         return this.educationalQualificationses;
     }
     
-    public void setEducationalQualificationses(Set<EducationalQualifications> educationalQualificationses) {
+    public void setEducationalQualificationses(ArrayList<EducationalQualifications> educationalQualificationses) {
         this.educationalQualificationses = educationalQualificationses;
     }
-    public Set<Experiences> getExperienceses() {
+    public ArrayList<Experiences> getExperienceses() {
         return this.experienceses;
     }
     
-    public void setExperienceses(Set<Experiences> experienceses) {
+    public void setExperienceses(ArrayList<Experiences> experienceses) {
         this.experienceses = experienceses;
     }
-    public Set<JobTitles> getJobTitleses() {
+    public ArrayList<JobTitles> getJobTitleses() {
         return this.jobTitleses;
     }
     
-    public void setJobTitleses(Set<JobTitles> jobTitleses) {
+    public void setJobTitleses(ArrayList<JobTitles> jobTitleses) {
         this.jobTitleses = jobTitleses;
     }
-    public Set<Referees> getRefereeses() {
+    public ArrayList<Referees> getRefereeses() {
         return this.refereeses;
     }
     
-    public void setRefereeses(Set<Referees> refereeses) {
+    public void setRefereeses(ArrayList<Referees> refereeses) {
         this.refereeses = refereeses;
     }
-    public Set<Skills> getSkillses() {
+    public ArrayList<Skills> getSkillses() {
         return this.skillses;
     }
     
-    public void setSkillses(Set<Skills> skillses) {
+    public void setSkillses(ArrayList<Skills> skillses) {
         this.skillses = skillses;
     }
-    public Set<ProfessionalQualifications> getProfessionalQualificationses() {
+    public ArrayList<ProfessionalQualifications> getProfessionalQualificationses() {
         return this.professionalQualificationses;
     }
     
-    public void setProfessionalQualificationses(Set<ProfessionalQualifications> professionalQualificationses) {
+    public void setProfessionalQualificationses(ArrayList<ProfessionalQualifications> professionalQualificationses) {
         this.professionalQualificationses = professionalQualificationses;
     }
 

@@ -224,12 +224,12 @@
             </form:form>
             <div id="text8" style="position:absolute; overflow:hidden; left:299px; top:328px; width:96px; height:28px; z-index:20">
                 <div class="wpmd">
-                    <div><font color="#FF9900" face="Arial Narrow" class="ws12"><B>Register here!</B></font></div>
+                    <div><a href="Jobseeker-Registration.htm"><font color="#FF9900" face="Arial Narrow" class="ws12"><B>Register here!</B></font></a></div>
                 </div></div>
 
             <div id="text9" style="position:absolute; overflow:hidden; left:409px; top:327px; width:158px; height:28px; z-index:21">
                 <div class="wpmd">
-                    <div><font color="#FF9900" face="Arial Narrow" class="ws12"><B>Forgot your password?</B></font></div>
+                    <div><a href="Jobseeker-Forgot-Password1.htm"><font color="#FF9900" face="Arial Narrow" class="ws12"><B>Forgot your password?</B></font></a></div>
                 </div></div>
 
         </div>

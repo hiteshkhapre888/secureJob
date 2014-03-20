@@ -142,7 +142,7 @@ body {text-align:center;margin:0}
 <input name="formtext3" type="text" style="position:absolute;width:210px;left:114px;top:269px;z-index:15">
 <input name="formtext4" type="text" style="position:absolute;width:211px;left:113px;top:308px;z-index:16">
 <input name="formtext5" type="text" style="position:absolute;width:210px;left:113px;top:347px;z-index:17">
-<input name="formtext6" type="text" style="position:absolute;width:211px;left:112px;top:389px;z-index:18">
+<input  name="formtext6" type="text" style="position:absolute;width:211px;left:112px;top:389px;z-index:18">
 <div id="text5" style="position:absolute; overflow:hidden; left:11px; top:393px; width:100px; height:19px; z-index:19">
 <div class="wpmd">
 <div><font color="#333333"><B>Address Line 1</B></font></div>
